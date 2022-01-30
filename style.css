@@ -1,0 +1,139 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:0;
+}
+
+.topo {
+  background-image: linear-gradient(#FF5151C7,#18141494);
+  width:1350px;
+  height:659px;
+}
+
+.logo {
+  width: 100px;
+  height: 50px;
+  padding-top: 38px;
+  padding-left: 45px;
+}
+
+.logo img{
+  width: 100%;
+  height: auto;
+}
+
+.menu-dekstop {
+  display:inline-block;
+  position: relative;
+  margin-left: 170px;
+}
+
+.menu-dekstop a {
+  color:white;
+  font-size: bold;
+  font-weight: 20px;
+  padding:10px;
+  font-weight: bold;
+}
+
+.btn-header {
+  color:white;
+  background-color:black;
+  border-radius: 3px;
+  padding:5px;
+}
+
+.banner{
+  width: 400px;
+  height: auto;
+  min-height: 100%;
+  position:absolute;
+  top:200px;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    margin:auto;
+    
+}
+ 
+ .marvel {
+  
+  width: 600px;
+  height: 820px;
+  position: absolute;
+  top:100px;
+  left:565px;
+}
+
+.marvel img {
+    width: 100%;
+    height: auto;
+}
+ 
+.spiderteaser{
+  position: absolute; 
+  top:-250px;
+	min-width: 760px; 
+	min-height: 760px;
+	width:100%; 
+	height: 100%; 
+	z-index: -100;
+	background: url(img/teaser1.mp4) no-repeat;
+	background-size: cover;
+  
+}
+
+
+.spiderteaser img{
+    width: 100%;
+    height: auto ;
+    position: relative;
+}
+
+.spiderteaser > video {
+  position: relative;
+  top: -350px;
+  left: 0;
+  width: 1350px;
+  height: 1400px;
+}
+
+.container{
+  width:1338px;
+  height:auto;
+  margin-top: -70px;
+  
+}
+
+
+.vitrine {
+  min-height:600px;
+  width:100%;
+  background-image: url("https://images7.alphacoders.com/463/463445.jpg");
+  background-position: center;
+  background-size: cover;
+  display:flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-left: 12px;
+}
+
+.box-vitrine{
+  position:relative;
+  top:-20px;
+  width: 25%;
+  background-color: #CFEB0A;
+  padding:8px 12px;
+}
+
+.box-vitrine img{
+  width: 100%
+}
+
+.final{
+  color:white;
+}
+
